@@ -23,3 +23,7 @@ test:
 production:
   <<: *default
   database: storage/production.sqlite3
+
+postgresml:
+  adapter: postgresql
+  url: <%= ENV.fetch("POSTGRESML_URL") %>

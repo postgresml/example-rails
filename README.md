@@ -1,24 +1,13 @@
-# README
+# Rails AI Demo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Have AI models generate blog posts.
+* Generate embeddings to leverage vector search functionality.
+* Rank passages by relevance.
+* Record search metrics.
+* Build a model to improve search rankings.
 
-Things you may want to cover:
+## Setup
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1) Sign up and create a database on https://postgresml.org
+2) Copy `.env.template` to `.env`, and set `POSTGRESML_URL` to your cloud database url
+3) `bundle install`
